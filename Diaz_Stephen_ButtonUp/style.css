@@ -1,0 +1,24 @@
+.search {
+    color: lightseagreen;
+    background-color: lightgray; 
+    border-radius: 15px;
+    width: 150px;
+    height: 25px; 
+    border-color: lightseagreen;
+}
+
+.plus {
+    color: white;
+    background-color: lightseagreen;
+    border-radius: 50%; 
+    border: none; 
+
+}
+
+.create {
+    color: white;
+    background-color: cornflowerblue; 
+    box-shadow: 6px 6px 6px black; 
+    width: 150px;
+    height: 35px;
+}
