@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+    padding: 0;
+    /* border: 1px red dotted; */
+}
+
+.nav {
+    width: 500px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.feed {
+    text-align: center;
+}
+
+.contain {
+    width: 500px;
+    display: flex;
+    margin-top: 20px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.box-1 {
+    border: 2px black solid;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.p-icon {
+    height: 80px;
+}
+
+.box-2 {
+    border: 2px black solid;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.p-bot {
+    padding-bottom: 10px;
+}
+
+.box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.likes {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: underline;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: gold;
+    box-shadow: 4px 4px 1px black;
+    padding: 5px;
+    width: 50px;
+    cursor: pointer;
+}
